@@ -1,6 +1,6 @@
 services:
   # Database Service (Private Service - only accessible within Render)
-  - type: psvc
+  - type: pserv
     name: portfolio-db-n-hariprasath
     runtime: docker
     dockerContext: database
