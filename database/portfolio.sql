@@ -118,16 +118,6 @@ VALUES (
 -- Seed Projects
 INSERT INTO projects (title, description, tech_stack, github_url, live_url, image_url, is_featured, display_order) VALUES
 (
-    'Student Management System',
-    'A comprehensive web application designed to manage student records, course enrollments, attendance, and academic performance. Provides interfaces for both administrators and students.',
-    'Spring Boot, Java, MySQL, Thymeleaf, Bootstrap',
-    'https://github.com/N-Hariprasath',
-    NULL,
-    '/uploads/projects/student-mgmt.jpg',
-    TRUE,
-    1
-),
-(
     'Uber Management System',
     'A detailed ride-hailing simulation system featuring ride bookings, driver dispatch logic, route tracking, and payment estimation. Fully deployed for demonstration.',
     'Java, Spring Boot, React, MySQL, Google Maps API',
@@ -135,7 +125,7 @@ INSERT INTO projects (title, description, tech_stack, github_url, live_url, imag
     'https://github.com/N-Hariprasath',
     '/uploads/projects/uber-mgmt.jpg',
     TRUE,
-    2
+    1
 ),
 (
     'Food Delivery E-Commerce Website',
@@ -145,17 +135,7 @@ INSERT INTO projects (title, description, tech_stack, github_url, live_url, imag
     NULL,
     '/uploads/projects/food-delivery.jpg',
     TRUE,
-    3
-),
-(
-    'Employee Management System',
-    'A secure backend system to handle HR operations, employee registration, attendance tracking, payroll, and performance records.',
-    'Java, Swing, JDBC, MySQL',
-    'https://github.com/N-Hariprasath',
-    NULL,
-    '/uploads/projects/employee-mgmt.jpg',
-    FALSE,
-    4
+    2
 ),
 (
     'Portfolio Website',
@@ -165,5 +145,5 @@ INSERT INTO projects (title, description, tech_stack, github_url, live_url, imag
     NULL,
     '/uploads/projects/portfolio.jpg',
     FALSE,
-    5
+    3
 );

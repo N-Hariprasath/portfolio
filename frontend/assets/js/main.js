@@ -1,9 +1,5 @@
 // Main landing page integration script
 document.addEventListener('DOMContentLoaded', () => {
-    // Dynamic year in footer
-    const yearEl = document.getElementById('footer-year');
-    if (yearEl) yearEl.textContent = new Date().getFullYear();
-
     // Menu Mobile toggle
     const hamburger = document.querySelector('.hamburger');
     const navMenu = document.querySelector('.nav-menu');
@@ -26,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Fallback data for smooth first load or offline backend
     const fallbackData = {
         about: {
-            name: "Hariprasath N",
+            name: "HARIPRASATH N",
             role: "Web Developer",
             location: "Tirupur, Tamil Nadu, India",
             email: "hariprasath96267@gmail.com",
@@ -55,52 +51,36 @@ document.addEventListener('DOMContentLoaded', () => {
                 degree: "B.E Computer Science Engineering",
                 institution: "Shree Venkateshwara Hi-Tech Engineering College",
                 duration: "2023 - 2027",
-                gpa: "8.02 (Up to 5th Semester)",
-                details: "Studied core computer science concepts including Data Structures, Database Management Systems, Software Engineering, and Web Development. Maintained a consistent CGPA of 8.02 through the 5th semester."
+                gpa: "8.01 (Up to 5th Semester)",
+                details: "Studied core computer science concepts including Data Structures, Database Management Systems, Software Engineering, and Web Development. Maintained a consistent CGPA of 8.01 through the 5th semester."
             }
         ],
         projects: [
-            {
-                title: "Student Management System",
-                description: "A comprehensive web application designed to manage student records, course enrollments, attendance, and academic performance. Provides interfaces for both administrators and students.",
-                techStack: "Spring Boot, Java, MySQL, Thymeleaf, Bootstrap",
-                githubUrl: "https://github.com/N-Hariprasath",
-                liveUrl: null,
-                imageUrl: null,
-                isFeatured: true
-            },
+
             {
                 title: "Uber Management System",
                 description: "A detailed ride-hailing simulation system featuring ride bookings, driver dispatch logic, route tracking, and payment estimation. Fully deployed for demonstration.",
-                techStack: "Java, Spring Boot, React, MySQL, Google Maps API",
+                techStack: "HTML, CSS, JavaScript, Flask, Xampp",
                 githubUrl: "https://github.com/N-Hariprasath/uber_management_system",
-                liveUrl: "https://github.com/N-Hariprasath",
+                liveUrl: null,
                 imageUrl: null,
                 isFeatured: true
             },
             {
                 title: "Food Delivery E-Commerce Website",
                 description: "A responsive, visually stunning food ordering website with a shopping cart, category filters, order tracking, and integration with a mockup payment gateway.",
-                techStack: "HTML, CSS, JavaScript, Spring Boot, MySQL",
+                techStack: "HTML, CSS, JavaScript, Flask, Xampp",
                 githubUrl: "https://github.com/N-Hariprasath/food_delivery_websitte",
                 liveUrl: null,
                 imageUrl: null,
                 isFeatured: true
             },
-            {
-                title: "Employee Management System",
-                description: "A secure backend system to handle HR operations, employee registration, attendance tracking, payroll, and performance records.",
-                techStack: "Java, Swing, JDBC, MySQL",
-                githubUrl: "https://github.com/N-Hariprasath",
-                liveUrl: null,
-                imageUrl: null,
-                isFeatured: false
-            },
+
             {
                 title: "Portfolio Website",
                 description: "A premium personal portfolio website showcasing professional skills, projects, and contacts, complete with an administrative dashboard for updating details in real time.",
-                techStack: "HTML, CSS, JavaScript, Spring Boot, MySQL",
-                githubUrl: "https://github.com/N-Hariprasath",
+                techStack: "HTML, CSS, JavaScript, Java, Spring Boot, MySQL",
+                githubUrl: "https://github.com/N-Hariprasath/portfolio",
                 liveUrl: null,
                 imageUrl: null,
                 isFeatured: false

@@ -946,34 +946,7 @@ textarea.form-input {
     display: block;
 }
 
-/* FOOTER */
-footer {
-    border-top: 1px solid var(--border-color);
-    padding: 40px 0;
-    background: var(--bg-secondary);
-}
 
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer-text {
-    font-size: 0.9rem;
-    color: var(--text-secondary);
-}
-
-.footer-socials {
-    display: flex;
-    gap: 20px;
-}
-
-.footer-logo {
-    text-decoration: none;
-    font-weight: 700;
-    color: var(--text-primary);
-}
 
 /* Custom Utility classes to replace inline styles */
 .margin-top-md {

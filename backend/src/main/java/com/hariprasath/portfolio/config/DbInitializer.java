@@ -73,21 +73,13 @@ public class DbInitializer implements CommandLineRunner {
         if (projectRepository.count() == 0) {
             List<Project> projects = List.of(
                     Project.builder()
-                            .title("Student Management System")
-                            .description("A comprehensive web application designed to manage student records, course enrollments, attendance, and academic performance. Provides interfaces for both administrators and students.")
-                            .techStack("Spring Boot, Java, MySQL, Thymeleaf, Bootstrap")
-                            .githubUrl("https://github.com/N-Hariprasath")
-                            .isFeatured(true)
-                            .displayOrder(1)
-                            .build(),
-                    Project.builder()
                             .title("Uber Management System")
                             .description("A detailed ride-hailing simulation system featuring ride bookings, driver dispatch logic, route tracking, and payment estimation. Deployed on demonstration servers.")
                             .techStack("Java, Spring Boot, React, MySQL, Google Maps API")
                             .githubUrl("https://github.com/N-Hariprasath")
                             .liveUrl("https://github.com/N-Hariprasath")
                             .isFeatured(true)
-                            .displayOrder(2)
+                            .displayOrder(1)
                             .build(),
                     Project.builder()
                             .title("Food Delivery E-Commerce Website")
@@ -95,15 +87,7 @@ public class DbInitializer implements CommandLineRunner {
                             .techStack("HTML, CSS, JavaScript, Spring Boot, MySQL")
                             .githubUrl("https://github.com/N-Hariprasath")
                             .isFeatured(true)
-                            .displayOrder(3)
-                            .build(),
-                    Project.builder()
-                            .title("Employee Management System")
-                            .description("A secure backend system to handle HR operations, employee registration, attendance tracking, payroll, and performance records.")
-                            .techStack("Java, Swing, JDBC, MySQL")
-                            .githubUrl("https://github.com/N-Hariprasath")
-                            .isFeatured(false)
-                            .displayOrder(4)
+                            .displayOrder(2)
                             .build(),
                     Project.builder()
                             .title("Portfolio Website")
@@ -111,7 +95,7 @@ public class DbInitializer implements CommandLineRunner {
                             .techStack("HTML, CSS, JavaScript, Spring Boot, MySQL")
                             .githubUrl("https://github.com/N-Hariprasath")
                             .isFeatured(false)
-                            .displayOrder(5)
+                            .displayOrder(3)
                             .build()
             );
             projectRepository.saveAll(projects);

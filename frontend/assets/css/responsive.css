@@ -148,11 +148,7 @@
         grid-template-columns: 1fr;
     }
     
-    .footer-content {
-        flex-direction: column;
-        text-align: center;
-        gap: 20px;
-    }
+
 }
 
 /* Small Mobiles (under 480px) */
