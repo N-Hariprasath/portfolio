@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "portfolio.upload-dir",
+      "type": "java.lang.String",
+      "description": "Path to local upload storage folder"
+    },
+    {
+      "name": "portfolio.cors-allowed-origins",
+      "type": "java.lang.String[]",
+      "description": "Allowed origins for CORS policy mapping"
+    }
+  ]
+}

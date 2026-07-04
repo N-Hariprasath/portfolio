@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HARIPRASATH N | Web Developer | Portfolio</title>
+    
+    <!-- Meta Descriptions (SEO Best Practices) -->
+    <meta name="description" content="Personal portfolio of HARIPRASATH N, an Aspiring Web Developer and Full Stack Java Developer. Explore my skills in Java, Spring Boot, MySQL, and modern frontend technologies.">
+    <meta name="keywords" content="HARIPRASATH N, Web Developer, Full Stack Java Developer, Spring Boot, Java, MySQL, Portfolio, Tirupur">
+    <meta name="author" content="HARIPRASATH N">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="HARIPRASATH N | Web Developer Portfolio">
+    <meta property="og:description" content="Explore my projects, skills, and resume. Get in touch for professional web development opportunities.">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+    <!-- Premium Page Loader -->
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header>
+        <div class="container navbar">
+            <a href="#home" class="nav-logo" id="nav-logo-link">
+                <span class="nav-logo-dot"></span>HARIPRASATH N
+            </a>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li>
+                        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                            <i class="fa-solid fa-moon"></i>
+                            <i class="fa-solid fa-sun"></i>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+
+            <button class="hamburger" aria-label="Toggle mobile menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Background Glow Elements (Apple/Linear Aesthetic) -->
+    <div class="blur-blob blob-1"></div>
+    <div class="blur-blob blob-2"></div>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-text reveal reveal-left">
+                <div class="hero-greeting">
+                    <span class="hero-greeting-dot"></span>Available for Opportunities
+                </div>
+                <h1 class="dynamic-name">HARIPRASATH N</h1>
+                <div class="typing-container">
+                    <span class="typewrite" data-period="2000" data-type='["Web Developer", "Full Stack Java Developer"]'></span>
+                </div>
+                <p class="hero-description" id="dynamic-intro">
+                    Aspiring Web Developer with knowledge in HTML, CSS, JavaScript, Java, Spring Boot, and MySQL. Passionate about building responsive web applications and learning new technologies.
+                </p>
+                <div class="hero-buttons">
+                    <a href="../resumes.pdf" class="btn btn-primary ripple" id="btn-download-resume" download>
+                        <i class="fa-solid fa-arrow-down-long"></i>Download Resume
+                    </a>
+                    <a href="#contact" class="btn btn-secondary ripple">
+                        <i class="fa-regular fa-envelope"></i>Contact Me
+                    </a>
+                </div>
+                <div class="hero-socials">
+                    <a href="https://github.com/N-Hariprasath" class="social-icon dynamic-github" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/n-hariprasath" class="social-icon dynamic-linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-image reveal reveal-right">
+                <div class="hero-image-wrapper">
+                    <!-- Standard Fallback profile image or backend updated image -->
+                    <img id="dynamic-profile-img" src="../me.jpeg" alt="HARIPRASATH N">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header reveal reveal-up">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-subtitle">A brief overview of my professional path and motivations.</div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-card reveal reveal-left">
+                    <h3 class="about-card-title"><i class="fa-solid fa-user-tie"></i>Who I Am</h3>
+                    <p id="dynamic-intro-details">
+                        I am HARIPRASATH N, a computer science engineering undergraduate who loves crafting user-focused and modern web applications. Currently based in Tirupur, Tamil Nadu, India.
+                    </p>
+                    <p>
+                        I focus on building clean backend logic using Spring Boot and Java, combined with interactive frontend designs. I prioritize writing scalable code and applying solid engineering standards.
+                    </p>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight-box">
+                            <div class="highlight-num">8.02</div>
+                            <div class="highlight-label">Current CGPA</div>
+                        </div>
+                        <div class="highlight-box">
+                            <div class="highlight-num">5+</div>
+                            <div class="highlight-label">Projects Built</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-card reveal reveal-right">
+                    <h3 class="about-card-title"><i class="fa-solid fa-bullseye"></i>Career Objective</h3>
+                    <p id="dynamic-objective">
+                        To become a Full Stack Java Developer in a growth-oriented company, contribute to real-world projects, and continuously improve technical skills.
+                    </p>
+                    <h3 class="about-card-title margin-top-md"><i class="fa-solid fa-circle-info"></i>Quick Info</h3>
+                    <div class="quick-info-list">
+                        <div class="quick-info-item">
+                            <strong>Location:</strong> <span id="dynamic-location">Tirupur, Tamil Nadu, India</span>
+                        </div>
+                        <div class="quick-info-item">
+                            <strong>Work Focus:</strong> <span>Java Development / Backend Systems</span>
+                        </div>
+                        <div class="quick-info-item">
+                            <strong>College:</strong> <span>Shree Venkateshwara Hi-Tech Engineering College</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-header reveal reveal-up">
+                <h2 class="section-title">Technical Expertise</h2>
+                <div class="section-subtitle">Languages, frameworks, databases, and development tools I use regularly.</div>
+            </div>
+            
+            <div class="skills-grid reveal reveal-up">
+                <!-- Frontend -->
+                <div class="skills-category">
+                    <h3 class="skills-category-title"><i class="fa-solid fa-display"></i>Frontend</h3>
+                    <div class="skills-list" id="skills-frontend">
+                        <!-- Loaded dynamically -->
+                    </div>
+                </div>
+                
+                <!-- Backend -->
+                <div class="skills-category">
+                    <h3 class="skills-category-title"><i class="fa-solid fa-server"></i>Backend</h3>
+                    <div class="skills-list" id="skills-backend">
+                        <!-- Loaded dynamically -->
+                    </div>
+                </div>
+                
+                <!-- Database -->
+                <div class="skills-category">
+                    <h3 class="skills-category-title"><i class="fa-solid fa-database"></i>Database</h3>
+                    <div class="skills-list" id="skills-database">
+                        <!-- Loaded dynamically -->
+                    </div>
+                </div>
+                
+                <!-- Tools -->
+                <div class="skills-category">
+                    <h3 class="skills-category-title"><i class="fa-solid fa-screwdriver-wrench"></i>Tools & Software</h3>
+                    <div class="skills-list" id="skills-tools">
+                        <!-- Loaded dynamically -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education">
+        <div class="container">
+            <div class="section-header reveal reveal-up">
+                <h2 class="section-title">Education Pathway</h2>
+                <div class="section-subtitle">Academic degrees, institutions, achievements, and academic credentials.</div>
+            </div>
+            
+            <div class="education-timeline" id="education-timeline-container">
+                <!-- Timeline items loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-header reveal reveal-up">
+                <h2 class="section-title">Selected Projects</h2>
+                <div class="section-subtitle">Explore featured and recent applications I have designed and deployed.</div>
+            </div>
+
+            <div class="projects-header-group">
+                <!-- Featured Group -->
+                <div>
+                    <h3 class="projects-group-title" id="featured-projects-header">
+                        <i class="fa-solid fa-star"></i>Featured Work
+                    </h3>
+                    <div class="projects-grid" id="projects-featured-grid">
+                        <!-- Loaded dynamically -->
+                    </div>
+                </div>
+
+                <!-- Other Projects Group -->
+                <div class="margin-top-lg">
+                    <h3 class="projects-group-title" id="other-projects-header">
+                        <i class="fa-solid fa-folder-open"></i>More Projects
+                    </h3>
+                    <div class="projects-grid" id="projects-other-grid">
+                        <!-- Loaded dynamically -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header reveal reveal-up">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-subtitle">Feel free to reach out for projects, inquiries, or just to say hello!</div>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info-panel reveal reveal-left">
+                    <div>
+                        <h3 class="contact-info-title">Contact Information</h3>
+                        <p class="contact-info-desc">If you have any questions or would like to collaborate, you can drop me a message, send an email, or call me directly.</p>
+                    </div>
+                    
+                    <div class="contact-details">
+                        <div class="contact-detail-item">
+                            <div class="contact-detail-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="contact-detail-text">
+                                <h4>Email</h4>
+                                <p><a id="dynamic-email" href="mailto:hariprasath96267@gmail.com" class="contact-link">hariprasath96267@gmail.com</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-detail-item">
+                            <div class="contact-detail-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="contact-detail-text">
+                                <h4>Phone</h4>
+                                <p><a id="dynamic-phone" href="tel:+919629704983" class="contact-link">+91 9629704983</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-detail-item">
+                            <div class="contact-detail-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="contact-detail-text">
+                                <h4>Location</h4>
+                                <p>Tirupur, Tamil Nadu, India</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-panel reveal reveal-right">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="contact-name">Full Name</label>
+                                <input type="text" id="contact-name" class="form-input" placeholder="e.g. John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-email">Email Address</label>
+                                <input type="email" id="contact-email" class="form-input" placeholder="e.g. john@example.com" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contact-subject">Subject</label>
+                            <input type="text" id="contact-subject" class="form-input" placeholder="What is this about?" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contact-message">Message</label>
+                            <textarea id="contact-message" class="form-input" placeholder="Write your message here..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary ripple btn-submit">
+                            <i class="fa-regular fa-paper-plane"></i>Send Message
+                        </button>
+                        
+                        <div id="form-status" class="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-text">
+                &copy; <span id="footer-year">2026</span> <a href="#" class="footer-logo">HARIPRASATH N</a>. All rights reserved.
+            </div>
+            <div class="footer-socials">
+                <a href="https://github.com/N-Hariprasath" class="social-icon dynamic-github" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/n-hariprasath" class="social-icon dynamic-linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts Integration -->
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/api.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/typing.js"></script>
+    <script src="assets/js/animation.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

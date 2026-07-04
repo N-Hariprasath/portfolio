@@ -1,0 +1,26 @@
+# Maven target
+**/target/
+target/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.metadata/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# User Uploads directory
+/uploads/
+/backend/uploads/
+backend/uploads/
+
+# Log files
+*.log
