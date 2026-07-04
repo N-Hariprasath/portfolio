@@ -6,6 +6,11 @@ USE portfolio_db;
 -- SCHEMA CREATION
 -- -------------------------------------------------------------
 
+DROP TABLE IF EXISTS contact_messages;
+DROP TABLE IF EXISTS projects;
+DROP TABLE IF EXISTS education;
+DROP TABLE IF EXISTS skills;
+DROP TABLE IF EXISTS about;
 
 -- About Section table
 CREATE TABLE IF NOT EXISTS about (
@@ -38,7 +43,7 @@ CREATE TABLE IF NOT EXISTS education (
     degree VARCHAR(150) NOT NULL,
     institution VARCHAR(200) NOT NULL,
     duration VARCHAR(50) NOT NULL, -- e.g., '2023 - 2027'
-    gpa VARCHAR(20), -- e.g., '8.02'
+    gpa VARCHAR(50), -- e.g., '8.02'
     details TEXT
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
@@ -71,6 +76,7 @@ CREATE TABLE IF NOT EXISTS contact_messages (
 -- -------------------------------------------------------------
 
 -- Clear tables (avoid duplicates on run)
+SET SQL_SAFE_UPDATES = 0;
 DELETE FROM about;
 DELETE FROM skills;
 DELETE FROM education;
@@ -147,3 +153,5 @@ INSERT INTO projects (title, description, tech_stack, github_url, live_url, imag
     FALSE,
     3
 );
+
+SET SQL_SAFE_UPDATES = 1;
