@@ -2,6 +2,7 @@ package com.hariprasath.portfolio.controller;
 
 import com.hariprasath.portfolio.entity.ContactMessage;
 import com.hariprasath.portfolio.repository.ContactMessageRepository;
+import com.hariprasath.portfolio.service.EmailService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
@@ -14,6 +15,7 @@ import lombok.RequiredArgsConstructor;
 public class ContactController {
 
     private final ContactMessageRepository contactMessageRepository;
+    private final EmailService emailService;
 
     @GetMapping
     public ResponseEntity<List<ContactMessage>> getAllMessages() {
@@ -30,6 +32,7 @@ public class ContactController {
     @PostMapping
     public ResponseEntity<ContactMessage> createMessage(@RequestBody ContactMessage message) {
         ContactMessage saved = contactMessageRepository.save(message);
+        emailService.sendContactNotification(saved);
         return ResponseEntity.ok(saved);
     }
 

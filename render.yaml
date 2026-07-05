@@ -15,6 +15,14 @@ services:
         sync: false
       - key: CORS_ALLOWED_ORIGINS
         value: https://portfolio-frontend-n-hariprasath.onrender.com
+      - key: SPRING_MAIL_HOST
+        value: smtp.gmail.com
+      - key: SPRING_MAIL_PORT
+        value: "587"
+      - key: SPRING_MAIL_USERNAME
+        sync: false
+      - key: SPRING_MAIL_PASSWORD
+        sync: false
 
   # Frontend Static Site
   - type: web
