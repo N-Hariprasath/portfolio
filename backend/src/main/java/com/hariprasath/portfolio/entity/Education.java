@@ -25,7 +25,7 @@ public class Education {
     @Column(nullable = false, length = 50)
     private String duration; // e.g. 2023 - 2027
 
-    @Column(length = 20)
+    @Column(length = 50)
     private String gpa; // e.g. 8.02
 
     @Column(columnDefinition = "TEXT")
