@@ -69,7 +69,7 @@
 
     <!-- Window Title -->
     <text x="360" y="26" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" text-anchor="middle">
-      Placement Preparation Portal • Python Flask &amp; MySQL
+      Placement Preparation Portal • React &amp; TypeScript
     </text>
 
     <!-- App Header inside UI -->
