@@ -14,7 +14,7 @@ A fast, responsive, and visually stunning personal portfolio built entirely with
   - **Placement Preparation Portal**: React, TypeScript, Tailwind CSS, Vite
   - **Food Delivery Website**: HTML5, CSS3, JavaScript (ES6+)
   - **AgriDoc — Crop Disease Diagnosis**: Java 21, Spring Boot 3, MySQL, Google Gemini API
-- **Direct Resume Download**: Integrated 1-click download of `resumes.pdf`.
+- **Direct Resume Download**: Integrated 1-click download of `Resume.pdf`.
 - **Responsive Navigation**: Clean mobile navigation with animated hamburger toggle.
 - **Direct Contact Form**: Automated AJAX email delivery via FormSubmit.
 
@@ -28,7 +28,7 @@ portfolio/
 ├── style.css            # Complete design system, themes, and responsiveness
 ├── main.js              # Typewriter, theme toggle, filters, animations
 ├── me.jpeg              # Profile photo
-├── resumes.pdf          # Professional resume document
+├── Resume.pdf           # Professional resume document
 ├── project-placement.svg # Placement portal banner
 ├── project-food.jpg     # Food delivery platform banner
 ├── project-agridoc.jpg  # AgriDoc AI crop disease banner
